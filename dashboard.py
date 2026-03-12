@@ -5,7 +5,8 @@ import seaborn as sns
 
 st.set_page_config(page_title="AI Jobs Dashboard", layout="wide")
 
-data = pd.read_csv(r"C:\Users\Bhukya Rajnath\OneDrive\Documents\Naresh IT\python session\ai_jobs_market_2025_2026.csv")
+data = pd.read_csv("ai_jobs_market_2025_2026.csv")
+
 
 st.title("AI Jobs Market Dashboard (2025–2026)")
 st.write("Exploring salary trends, hiring patterns, and skills across the AI job market.")
@@ -122,5 +123,6 @@ ax5.axis("equal")
 st.pyplot(fig5)
 
 ax4.set_xlabel("Frequency")
+
 
 st.pyplot(fig4)
