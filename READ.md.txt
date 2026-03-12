@@ -1,0 +1,15 @@
+# AI Jobs Market Dashboard
+
+This project analyzes trends in the AI job market.
+
+Tools used:
+Python
+Pandas
+Seaborn
+Streamlit
+
+The dashboard explores:
+Salary distribution
+Jobs by experience level
+Top countries hiring
+Top AI skills
